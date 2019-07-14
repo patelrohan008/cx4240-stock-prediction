@@ -29,7 +29,7 @@ The movement of the market can be predicted by augmenting rational economic data
 
 ## Overview
 
-<img src="images/cx4240_flowchart.jpg" alt="Functional Flowchart" width="600" align="center" class="inline"/>
+<img src="images/cx4240_flowchart.png" alt="Functional Flowchart" width="600" align="center" class="inline"/>
 
 ## Gathering the Data
 
