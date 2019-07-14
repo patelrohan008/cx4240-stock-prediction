@@ -50,6 +50,20 @@ Once the model was selected, tweets for the relevant companies were scraped. Twe
 # Conclusions
 
 # References
+[1] J. Bollen and H. Mao. Twitter mood as a stock market predictor . IEEE Computer,
+44(10):91–94.
+
+[2] Carolyn Campbell, et al. Predicting Volatility in Equity Markets Using Macroeconomic
+News . CS 229 Final Project, cs229.stanford.edu/proj2015/202_report.pdf.
+
+[3] Shynkevich, Yauheniya & Mcginnity, T.M. & Coleman, Sonya & Belatreche, Ammar.
+(2015). Predicting Stock Price Movements Based on Different Categories of News
+Articles . 10.1109/SSCI.2015.107.
+
+[4] Alexander Porshnev, et al. Machine Learning in Prediction of Stock Market Indicators
+Based on Historical Data and Data from Twitter Sentiment Analysis . 2013 IEEE 13th
+International Conference on Data Mining Workshops.
+
 -------
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
