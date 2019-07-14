@@ -8,6 +8,13 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ## Challenging the Efficient Market Hypothesis
 
+
+
+
+
+## Our thesis
+The movement of the market can be predicted by augmenting rational economic data, standard micro and macroeconomic predictive indexes, with a model quantifying irrational behavior, a sentiment analysis of social media.
+
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
