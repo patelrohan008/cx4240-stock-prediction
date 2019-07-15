@@ -33,9 +33,14 @@ The movement of the market can be predicted by augmenting rational economic data
 
 ## Gathering the Data
 
-### Predictive Stock Market Indexes
+### Predictive Stock Market Indices
 
-Test
+Using the Alpha Vantage API, we had access to over 50 technical market indicators for any given company. Using all of these would have been impractical, as we didn't have the computing power to produce a predicive model using that many features in a reasonable amount of time. In order to lessen the load on our models, we set out to us SVD analysis to find the minimum number of indicies that encompass the maximum possible variance of our data. For our analysis, we chose two large companies with low stock variance, Microsoft and Google, and two small companies with high stock variance, Qumu Corporation and Social Reality Incorporated.
+
+After our inital analysis, we found that for every one of our four test companies, the domininant principal direction (associated with the largest eigenvalue) was signifigantly larger than any other direction, with this direction a factor of ~1000x larger than the second largest principal direction. This meant that the dominant principal direction accounted for over 99.8% of the variance for every one of our test companies. 
+
+<img src="images/Eigenvalues.png" alt="Functional Flowchart" width="1200" height = "600" align="center" class="inline"/>
+
 
 ### Social Media Sentiment Analysis
 
