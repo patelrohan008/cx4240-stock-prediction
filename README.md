@@ -39,7 +39,11 @@ Using the Alpha Vantage API, we had access to over 50 technical market indicator
 
 After our inital analysis, we found that for every one of our four test companies, the domininant principal direction (associated with the largest eigenvalue) was signifigantly larger than any other direction, with this direction a factor of ~1000x larger than the second largest principal direction. This meant that the dominant principal direction accounted for over 99.8% of the variance for every one of our test companies. 
 
-<img src="images/Eigenvalues.png" alt="Functional Flowchart" width="1200" height = "600" align="center" class="inline"/>
+<img src="images/Eigenvalues.png" alt="Eigenvalues"  align="center" class="inline"/>
+
+Taking the second largest principal direction in account pushed our lost variance to 10<sup>-6</sup> %, meaning that we could reach a final verdict by only considering the top two largest principal directions for each company. With this information, our next step was to consider the dominance of each measurement in these principal directions. We considered a measurement to be dominant if it's absolute value in the normalized vector exceeded 0.1. We first looked at the top principal direction alone.
+
+<img src="images/t_Eigenvector.png" alt="Top Eigenvectors"  align="center" class="inline"/>
 
 
 ### Social Media Sentiment Analysis
