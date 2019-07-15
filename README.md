@@ -10,10 +10,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 <p align="justify">Today, the fact that there is a part of irrationality in the stock market fluctuations is widely accepted. In order to try to capture public sentiment, investors daily use confidence indexes, polls and surveys.</p>
 
 ## The choice of Twitter
-<p>Meanwhile, social networks appear to be a relevant and innovative way to evaluate public mood. Whereas surveys are limited on the number of respondents, social networks enable to have access to the mood of millions of people at a very low cost. 
+<p align="justify">Meanwhile, social networks appear to be a relevant and innovative way to evaluate public mood. Whereas surveys are limited on the number of respondents, social networks enable to have access to the mood of millions of people at a very low cost. 
 We chose to use Twitter rather than another social network for several reasons. First, Twitter is one of most visited websites in the world where people express their moods and opinions. Thus, we can assume that Twitter better reflects public sentiment rather than another website. Then, Twitter’s content is public and classified by hashtags which make the collection of the tweets related to a topic easier.
 Moreover, several recent tweets had a significant impact on stock market. For instance, on August 7th, 2018, Elon Musk’s announcement about turning Tesla into a private company lead to a rise of Tesla’s stock price.
-
+</p>
+<p>
 <img src="images/Musk_stock_tweet_turning_to_private.png" alt="Tweet about turning Tesla to private" width="600" align="center" class="inline"/>
 </p>
 <p align="justify">Thus, our team is interested in using social networks like Twitter to improve stock market prediction.</p>
