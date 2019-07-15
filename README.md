@@ -35,6 +35,8 @@ The movement of the market can be predicted by augmenting rational economic data
 
 ### Predictive Stock Market Indexes
 
+Test
+
 ### Social Media Sentiment Analysis
 
 The first step in our sentiment analysis was to select a medium to pull data from. Twitter was selected as the preferred choice for two primary reasons. First, Twitter data is easily organized. Existing filters such as hashtags and verified users allow for flexible selection criteria. Second, individual tweets are short and succinct. This simplifies the analysis step as the model doesn’t need to interpret complex concepts such as the theme of a longer post. 
