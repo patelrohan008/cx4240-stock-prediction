@@ -64,7 +64,7 @@ Final List of Meaurements:
 
 #### Additional Stock Data
 
-</p>In addition to the technical indicators specific to a company, we also chose to add several general market indicators to account for events affecting the entire market. To accompish this, we included the open, close, high, low, and volume values of the NASDAQ.</p>
+<p align="justify">In addition to the technical indicators specific to a company, we also chose to add several general market indicators to account for events affecting the entire market. To accompish this, we included the open, close, high, low, and volume values of the NASDAQ.</p>
 
 ### Social Media Sentiment Analysis
 
