@@ -107,7 +107,7 @@ The results of the composite score are shown above.
 
 <center><h6>The graphs above display the results of testing the AdaBoost NuSVR model with 296 days of training data and 74 days of test data.</h6></center>
   
-Looking at the charts show below, it can be seen that the use of Twitter data in the AdaBoost NuSVR model to predict the stock value of Microsoft <b><u>improves the average Mean Squared Error (MSE) by 39% and the average Explained Variance by 15%</b></u>.
+Looking at the charts show below, it can be seen that the use of Twitter data in the AdaBoost NuSVR model to predict the stock value of Microsoft <em><b><u>improves the average Mean Squared Error (MSE) by 39% and the average Explained Variance by 15%</u></b></em>.
 
 <img src="images/msft_mse_comp.png" alt="MSFT MSE Comparison" height = "400" width = "400" align="center" class="inline"/> <img src="images/msft_var_comp.png" alt="MSFT Exp. Var. Comparison" height = "400" width = "400" align="center" class="inline"/>
   
