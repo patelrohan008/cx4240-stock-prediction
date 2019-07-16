@@ -75,19 +75,17 @@ After combining the data to form a multivariate time series, more feature engine
 
 # Results and analysis
 
-<img src="images/msft_adbnusvr_nt.png" alt="MSFT No Twitter Test" height = 275 width = 275 align="center" class="inline"/>
+<img src="images/msft_adbnusvr_nt.png" alt="MSFT No Twitter Test" height = "275" width = "275" align="center" class="inline"/> <img src="images/msft_adbnusvr.png" alt="MSFT Test" height = "275" width = "275" align="center" class="inline"/>
 
-<img src="images/msft_adbnusvr.png" alt="MSFT Test" height = 275 width = 275 align="center" class="inline"/>
+<img src="images/googl_adbnusvr_nt.png" alt="GOOGL No Twitter Test"  height = "275" width = "275" align="center" class="inline"/> <img src="images/googl_adbnusvr.png" alt="GOOGL Test"  height = "275" width = "275" align="center" class="inline"/> 
 
-<img src="images/googl_adbnusvr_nt.png" alt="GOOGL No Twitter Test"  height = 275 width = 275 align="center" class="inline"/> <img src="images/googl_adbnusvr.png" alt="GOOGL Test"  height = 275 width = 275 align="center" class="inline"/> 
-
-<img src="images/aapl_adbnusvr_nt.png" alt="AAPL No Twitter Test" height = 275 width = 275 align="center" class="inline"/> <img src="images/aapl_adbnusvr.png" alt="AAPL Test" height = 275 width = 275 align="center" class="inline"/>
+<img src="images/aapl_adbnusvr_nt.png" alt="AAPL No Twitter Test" height = "275" width = "275" align="center" class="inline"/> <img src="images/aapl_adbnusvr.png" alt="AAPL Test" height = "275" width = "275" align="center" class="inline"/>
 
 <center><h6>The graphs above display the results of testing the AdaBoost NuSVR model with 296 days of training data and 74 days of test data.</h6></center>
   
 Looking at the charts show below, it can be seen that the use of Twitter data in the AdaBoost NuSVR model to predict the stock value of Microsoft improves the average Mean Squared Error (MSE) by 39% and the average Explained Variance by 15%.
 
-<img src="images/msft_mse_comp.png" alt="MSFT MSE Comparison" height = 400 width = 400 align="center" class="inline"/> <img src="images/msft_var_comp.png" alt="MSFT Exp. Var. Comparison" height = 400 width = 400 align="center" class="inline"/>
+<img src="images/msft_mse_comp.png" alt="MSFT MSE Comparison" height = "400" width = "400" align="center" class="inline"/> <img src="images/msft_var_comp.png" alt="MSFT Exp. Var. Comparison" height = "400" width = "400" align="center" class="inline"/>
   
 # Conclusions
 ## Limits of Twitter data
