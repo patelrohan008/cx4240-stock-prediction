@@ -20,11 +20,6 @@ Moreover, several recent tweets had a significant impact on stock market. For in
 <p align="justify">Thus, our team is interested in using social networks like Twitter to improve stock market prediction.</p>
 
 
-## Challenging the Efficient Market Hypothesis
-
-
-
-
 
 ## Our thesis
 <p align="justify">The movement of the market can be predicted by augmenting rational economic data, standard micro and macroeconomic predictive indexes, with a model quantifying irrational behavior, a sentiment analysis of social media.</p>
