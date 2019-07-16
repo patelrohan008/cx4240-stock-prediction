@@ -5,8 +5,8 @@
 
 ## The Choice of Twitter
 <p align="justify">Meanwhile, social networks appear to be a relevant and innovative way to evaluate public mood. Whereas surveys are limited on the number of respondents, social networks enable to have access to the mood of millions of people at a very low cost. 
-We chose to use Twitter rather than another social network for several reasons. First, Twitter is one of most visited websites in the world where people express their moods and opinions. Thus, we can assume that Twitter better reflects public sentiment rather than another website. Then, Twitter’s content is public and classified by hashtags which make the collection of the tweets related to a topic easier.
-Moreover, several recent tweets had a significant impact on stock market. For instance, on August 7th, 2018, Elon Musk’s announcement about turning Tesla into a private company lead to a rise of Tesla’s stock price.
+We chose to use Twitter rather than another social network for several reasons. First, Twitter is one of most visited websites in the world where people express their moods and opinions. Thus, we can assume that Twitter better reflects public sentiment rather than another website. Then, Twitter’s content is public and classified by hashtags which make the collection of the tweets related to a topic easier. Third, individual tweets are short and succinct. This simplifies the analysis step as the model doesn’t need to interpret complex concepts such as the theme of a longer post.
+Finally, several recent tweets had a significant impact on stock market. For instance, on August 7th, 2018, Elon Musk’s announcement about turning Tesla into a private company lead to a rise of Tesla’s stock price.
 </p>
 <p>
 <img src="images/Musk_stock_tweet_turning_to_private.png" alt="Tweet about turning Tesla to private" width="600" align="center" class="inline"/>
@@ -53,11 +53,11 @@ Final List of Meaurements:
 
 #### Additional Stock Data
 
-<p align="justify">In addition to the technical indicators specific to a company, we also chose to add several general market indicators to account for events affecting the entire market. To accompish this, we included the open, close, high, low, and volume values of the NASDAQ.</p>
+<p align="justify"><strike>In addition to the technical indicators specific to a company, we also chose to add several general market indicators to account for events affecting the entire market. To accompish this, we included the open, close, high, low, and volume values of the NASDAQ.</strike></p>
 
 ### Social Media Sentiment Analysis
 
-<p align="justify">The first step in our sentiment analysis was to select a medium to pull data from. Twitter was selected as the preferred choice for two primary reasons. First, Twitter data is easily organized. Existing filters such as hashtags and verified users allow for flexible selection criteria. Second, individual tweets are short and succinct. This simplifies the analysis step as the model doesn’t need to interpret complex concepts such as the theme of a longer post. </p>
+<p align="justify">The first step in our sentiment analysis was to select a medium to pull data from. Twitter was selected as the preferred choice for two primary reasons. First, Twitter data is easily organized. Existing filters such as hashtags and verified users allow for flexible selection criteria. . </p>
 
 <p align="justify">After choosing to examine Twitter data, the next step was to select a model to analyze each tweet. As the focus of this project was determining the influence social media sentiment had on the market rather than the methods of quantifying social media sentiment, a strong preference was placed on “out of the box” models. The model selected for sentiment analysis was the Valence Aware Dictionary and Sentiment Reasoner (henceforward referred to as VADER) developed by C.J. Hutto and Eric Gilbert. Again, there were several reasons for selection. First, this analysis tool is designed specifically to quantify social media sentiment. As a result, it has a number of particularly useful features, including the ability to understand slang, acronyms, and emojis. Second, VADER analysis supports sentiment intensity quantification meaning that degree modifiers, capitalization, and punctuation all play a role in the outputted result. Lastly, VADER quantification is easy to implement. Simply by calling a python package on the content of a tweet, VADER returns a composite score ranging from -1 to 1, where -1 corresponds to an extremely negative sentiment and 1 corresponds to an extremely positive sentiment. </p>
 
@@ -126,7 +126,7 @@ Currently, the model used to calculate the sentiment of tweets in thie project h
 The machine learning models used in this project were all relatively simple compared to those available for use. Given more time and computing power, significantly more complex models could be produced that would provide either more accurate predictions or a broader range of applicable companies for which the model would be useful.
 
 ### Test the models on other stock companies
-<p align="justify">We can later try the models on the stock companies. An analysis of correlation between several companies gives two examples of stocks (CVS, Boeing) that are negatively correlated to the whole stock market. Thus, more negative tweets are likely to be extracted. It would be interesting to see how the models react to this more probable percentage of negative tweets. The API Alpha vantage enables to display the performances of the main sectors of the economy and can help to choose new companies to test.</p>
+<p align="justify">We can later try the models on other stock companies. An analysis of correlation between several companies gives two examples of stocks (CVS, Boeing) that are negatively correlated to the whole stock market. Thus, more negative tweets are likely to be extracted. It would be interesting to see how the models react to this more probable percentage of negative tweets. The Alpha Vantage API enables to display the performances of the main sectors of the economy and can help to choose new companies to test.</p>
 <img src="images/correlation_matrix_companies.png" alt="correlation matrix companies" width = "600" align="center" class="inline"/> <br>
 <img src="images/ytd-perf_sectors.png" alt="" width = "600" align="center" class="inline" /> 
 
