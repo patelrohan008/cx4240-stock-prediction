@@ -76,6 +76,7 @@ h
 # Results and analysis
 
 <img src="images/msft_adbnusvr_nt.png" alt="MSFT No Twitter Test" height = 275 width = 275 align="center" class="inline"/> 
+
 <img src="images/msft_adbnusvr.png" alt="MSFT Test" height = 275 width = 275 align="center" class="inline"/>
 
 <img src="images/googl_adbnusvr_nt.png" alt="GOOGL No Twitter Test"  height = 275 width = 275 align="center" class="inline"/> <img src="images/googl_adbnusvr.png" alt="GOOGL Test"  height = 275 width = 275 align="center" class="inline"/> 
