@@ -9,7 +9,7 @@ We chose to use Twitter rather than another social network for several reasons. 
 Moreover, several recent tweets had a significant impact on stock market. For instance, on August 7th, 2018, Elon Musk’s announcement about turning Tesla into a private company lead to a rise of Tesla’s stock price.
 </p>
 <p>
-<img src="images/Musk_stock_tweet_turning_to_private.png" alt="Tweet about turning Tesla to private" width="600" align="center" />
+<img src="images/Musk_stock_tweet_turning_to_private.png" alt="Tweet about turning Tesla to private" width="600" align="center" class="inline"/>
 </p>
 <p align="justify">Thus, our team is interested in using social networks like Twitter to improve stock market prediction.</p>
 
@@ -105,7 +105,7 @@ Looking at the charts show below, it can be seen that the use of Twitter data in
 # Conclusions
 
 ## Summary
-Through this project, we have not only shown that raw market data is not enough to produce an effective model, but also that there are irratiionnal contributing fat
+Through this project, we have not only shown that raw market data is not enough to produce an effective predictive model, but also that there are irrational contributing factors that affect the values of a company's stock. We have also shown that these irrational factors can be modeled with some level of accuracy and applied to various predicive models to improve their accurancy at predicting the future values of stock. Through the use of several analytical concepts and machine learning methods, we have produced a model that can predict the stock value of a company tomorrow with only the tweets relevant to the company and a small set of technical indicators from today and the two days prior, and we have displayed that the accuracy of this model is signifigantly improved by the use of the data associated with the tweets. Lastly, the steps taken in this project have brought us closer to understanding the many abstract factors that go into the daily movement of the stock.
 
 ## Limits of Twitter data
 <p align="justify">This study has shown that Twitter can improve stock prediction. However, the use of Twitter for stock market prediction has some limits. First, Twitter is particularly used in the United States and therefore reflects more American public sentiment rather than the world opinion. Moreover, it is sometimes difficult to extract enough relevant tweets related to a company. Usually when it is a large company, it is more likely to find many tweets. But it is not a general truth. For example, we did not find numerous tweets related to AMD. As Delta Airlines is concerned, many tweets were consumer complaints or discussions with the customer service. In that case, those tweets had to be filtered.</p>
@@ -114,17 +114,12 @@ Through this project, we have not only shown that raw market data is not enough 
 
 ### Twitter Analysis
 
-<p align="justify">Currently, the model used to calculate the sentiment of tweets in thie project has only one numerical indicator applied to each tweet. This model could be improved by introducing several more complex indicators to provide more information towards the overall sentiment towards the given company.</p>
+Currently, the model used to calculate the sentiment of tweets in thie project has only one numerical indicator applied to each tweet. This model could be improved by introducing several more complex indicators to provide more information towards the overall sentiment towards the given company.
 
 ### Neural Networks
 
-<p align="justify">The machine learning models used in this project were all relatively simple compared to those availible for use. Given more time and computing power, signifigantly more complex models could be produced that would provide either more accurate predictions or a broader range of applicable companies for which the model would be useful.</p>
+The machine learning models used in this project were all relatively simple compared to those availible for use. Given more time and computing power, signifigantly more complex models could be produced that would provide either more accurate predictions or a broader range of applicable companies for which the model would be useful.
 
-### Test the models on other stock companies
-<p align="justify">We can later try the models on the stock companies. An analysis of correlation between several companies gives two examples of stocks (CVS, Boeing) that are negatively correlated to the whole stock market. Thus, more negative tweets are likely to be extracted. It would be interesting to see how the models react to this more probable percentage of negative tweets. The API Alpha vantage enables to display the performances of the main sectors of the economy and can help to choose new companies to test.
-<img src="images/correlation_matrix_companies.png" alt="correlation matrix companies" width = "400" align="center" class="inline"/> <br>
-<img src="images/ytd-perf_sectors.png" alt="" width = "420" align="center" class="inline" /> 
-</p>
 # References
 [1] J. Bollen and H. Mao. Twitter mood as a stock market predictor . IEEE Computer,
 44(10):91–94.
