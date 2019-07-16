@@ -1,8 +1,4 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/patelrohan008/cx4240-stock-prediction/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Semtiment Analysis of Social Media For Stock Market Prediction
 
 # Motivation
 ## Behavioral Finance
@@ -95,6 +91,11 @@ Looking at the charts show below, it can be seen that the use of Twitter data in
 
 ## Next steps
 
+### Twitter Analysis
+Currently, the model used to calculate the sentiment of tweets in thie project has only one numerical indicator applied to each tweet. This model could be improved by introducing several more complex indicators to provide more information towards the overall sentiment towards the given company.
+
+### Neural Networks
+The machine learning models used in this project were all relatively simple compared to those availible for use. Given more time and computing power, signifigantly more complex models could be produced that would provide either more accurate predictions or a broader range of applicable companies for which the model would be useful.
 
 # References
 [1] J. Bollen and H. Mao. Twitter mood as a stock market predictor . IEEE Computer,
@@ -111,33 +112,3 @@ Articles . 10.1109/SSCI.2015.107.
 Based on Historical Data and Data from Twitter Sentiment Analysis . 2013 IEEE 13th
 International Conference on Data Mining Workshops.
 
--------
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/patelrohan008/cx4240-stock-prediction/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
