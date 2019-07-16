@@ -1,4 +1,5 @@
-# Semtiment Analysis of Social Media For Stock Market Prediction
+# Semtiment Analysis of Social Media 
+# For Stock Market Prediction
 
 # Motivation
 ## Behavioral Finance
