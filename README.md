@@ -89,6 +89,13 @@ Final List of Meaurements:
 ### Neural Networks
 <p align="justify">A series of neural networks was implemented to try and outperform the models implemented earlier. Several neural network architectures were used: fully connected, convolutional, long short-term memory, and a hybrid convolutional and long short-term memory network consisting of a series of convolutions and max pools before an LSTM layer. Each of these networks faced a set of difficulties. The fully connected network drastically overfit the data even after the implementation of a validation set and dropout layer. The convolutional network struggled to follow the trend of the test data. The LSTM network took an extremely long time to train and overfit data as well, even after gaussian noise, dropout, and validation were all added. While the LSTM-CNN hybrid didn’t have the same training speed issues, the series of convolutions effectively denoised the gaussian noise that was added and resulted in overfitting. The problems from the LSTM network likely stemmed from a lack of data, while access to stock information is plentiful, rate limitations on twitter scraping limited the amount of accessible data to the past year and a half.  While Gaussian noise was designed to act as a form of data augmentation, in reality it was unable to make up for the lack of data. </p>
 
+## Selecting the Model
+
+<p align="justify"> To compare between the various models examined, a composite scoring system was derived from three key metrics: R2, mean squared error, and explained variance. All three metrics were included to allow selection of a model that effectively follows the data. In the composite score, larger values are better. Certain models, for exampled ensemble learning methods implementing linear regression methods, were not included in the model selection due to the problems mentioned earlier. </p>
+
+<img src="images/composite_score.png" alt="" width="600" align="center" class="inline"/>
+
+The results of the composite score are shown above. 
 
 # Results and analysis
 
@@ -116,7 +123,7 @@ Through this project, we have not only shown that raw market data is not enough 
 
 ### Twitter Analysis
 
-Currently, the model used to calculate the sentiment of tweets in thie project has only one numerical indicator applied to each tweet. This model could be improved by introducing several more complex indicators to provide more information towards the overall sentiment towards the given company.
+Currently, the model used to calculate the sentiment of tweets in the project has only one numerical indicator applied to each tweet. This model could be improved by introducing several more complex indicators to provide more information towards the overall sentiment towards the given company.
 
 ### Neural Networks
 
