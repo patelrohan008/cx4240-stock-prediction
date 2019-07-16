@@ -86,10 +86,16 @@ Final List of Meaurements:
 ### Ensemble Learning Models
 <p align="justify">The next set of models are designed to increase the predictive capacity of the models examined earlier. Using a variety of linear, kernel-based, and decision tree models, a series of ensemble learning methods were tested, including bagging, random forests, and AdaBoost. Bagging and AdaBoost appeared to perform extremely well with the linear and kernel transformation models. However, closer inspection revealed that linear and kernel ridge regression tended to mirror movement of the stock, but one day later. As a result, ensemble methods using these regressions had low errors but produced unusable data. In contrast, ensemble learning was effective in transforming the support vector regressor into a stronger predictive model. AdaBoost, a method which fits a sequence of learners to slightly modified data sets, functioned extremely well in conjunction with support vector regression. </p>
 
-<img src="images/ensemble_graphic.png" alt="Examining Ensemble Learning" width="600" align="center" class="inline"/>
+Below, a graphic demonstrates the concepts involved in two types of ensemble learning.
+
+<img src="images/ensemble_graphic.png" alt="Examining Ensemble Learning" width="800" align="center" class="inline"/>
 
 ### Neural Networks
 <p align="justify">A series of neural networks was implemented to try and outperform the models implemented earlier. Several neural network architectures were used: fully connected, convolutional, long short-term memory, and a hybrid convolutional and long short-term memory network consisting of a series of convolutions and max pools before an LSTM layer. Each of these networks faced a set of difficulties. The fully connected network drastically overfit the data even after the implementation of a validation set and dropout layer. The convolutional network struggled to follow the trend of the test data. The LSTM network took an extremely long time to train and overfit data as well, even after gaussian noise, dropout, and validation were all added. While the LSTM-CNN hybrid didn’t have the same training speed issues, the series of convolutions effectively denoised the gaussian noise that was added and resulted in overfitting. The problems from the LSTM network likely stemmed from a lack of data, while access to stock information is plentiful, rate limitations on twitter scraping limited the amount of accessible data to the past year and a half.  While Gaussian noise was designed to act as a form of data augmentation, in reality it was unable to make up for the lack of data. </p>
+
+Below is a visualization of the CNN LSTM architecture implemented.
+
+<img src="images/cnn_lstm.png" alt="CNN LSTM Architecture" width="800" align="center" class="inline"/>
 
 ## Selecting the Model
 
