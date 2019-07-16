@@ -2,6 +2,3 @@ theme: jekyll-theme-cayman
 title: Applying Sentiment Analysis to Stock Market Prediction
 
 description: Incorporating sentiment analysis into traditional machine learning stock prediction models
-
-author:
-  name: Rohan Patel, Jonathan Zribi, Joseph Cochran
