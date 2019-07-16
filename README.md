@@ -124,7 +124,7 @@ The machine learning models used in this project were all relatively simple comp
 <p align="justify">We can later try the models on the stock companies. An analysis of correlation between several companies gives two examples of stocks (CVS, Boeing) that are negatively correlated to the whole stock market. Thus, more negative tweets are likely to be extracted. It would be interesting to see how the models react to this more probable percentage of negative tweets. The API Alpha vantage enables to display the performances of the main sectors of the economy and can help to choose new companies to test.
 
 <img src="images/correlation_matrix_companies.png" alt="correlation matrix companies" width = "600" align="center" class="inline"/> <br>
-<img src="images/ytd-perf_sectors.png" alt="" width = "420" align="center" class="inline" /> 
+<img src="images/ytd-perf_sectors.png" alt="" width = "600" align="center" class="inline" /> 
 </p>
 
 # References
