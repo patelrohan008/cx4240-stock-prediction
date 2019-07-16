@@ -160,3 +160,6 @@ International Conference on Data Mining Workshops.
 [5] VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text
 (by C.J. Hutto and Eric Gilbert)
 Eighth International Conference on Weblogs and Social Media (ICWSM-14). Ann Arbor, MI, June 2014
+
+[6] Wang, Jin & Yu, Liang-Chih & Lai, K & Zhang, Xuejie. (2016). 
+Dimensional Sentiment Analysis Using a Regional CNN-LSTM Model. 225-230. 10.18653/v1/P16-2037. 
