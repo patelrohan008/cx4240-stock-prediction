@@ -88,6 +88,10 @@ Looking at the charts show below, it can be seen that the use of Twitter data in
 <img src="images/msft_mse_comp.png" alt="MSFT MSE Comparison" height = "400" width = "400" align="center" class="inline"/> <img src="images/msft_var_comp.png" alt="MSFT Exp. Var. Comparison" height = "400" width = "400" align="center" class="inline"/>
   
 # Conclusions
+
+## Summary
+Through this project, we have not only shown that raw market data is not enough to produce an effective model, but also that there are irratiionnal contributing fat
+
 ## Limits of Twitter data
 <p align="justify">This study has shown that Twitter can improve stock prediction. However, the use of Twitter for stock market prediction has some limits. First, Twitter is particularly used in the United States and therefore reflects more American public sentiment rather than the world opinion. Moreover, it is sometimes difficult to extract enough relevant tweets related to a company. Usually when it is a large company, it is more likely to find many tweets. But it is not a general truth. For example, we did not find numerous tweets related to AMD. As Delta Airlines is concerned, many tweets were consumer complaints or discussions with the customer service. In that case, those tweets had to be filtered.</p>
 
