@@ -77,8 +77,8 @@ After combining the data to form a multivariate time series, more feature engine
 
 # Results and analysis
 ## Excluding Twitter Data
-<img src="images/msft_adbnusvr_nt.png" alt="MSFT Test" height = 275 width = 275 align="center" class="inline"/> <img src="images/googl_adbnusvr_nt.png" alt="GOOGL Test"  height = 275 width = 275 align="center" class="inline"/> 
-<img src="images/aapl_adbnusvr_nt.png" alt="AAPL Test" height = 275 width = 275 align="center" class="inline"/>
+<img src="images/msft_adbnusvr_nt.png" alt="MSFT No Twitter Test" height = 275 width = 275 align="center" class="inline"/> <img src="images/googl_adbnusvr_nt.png" alt="GOOGL No Twitter Test"  height = 275 width = 275 align="center" class="inline"/> 
+<img src="images/aapl_adbnusvr_nt.png" alt="AAPL No Twitter Test" height = 275 width = 275 align="center" class="inline"/>
 
 ## Incorporating Twitter Data
 <img src="images/msft_adbnusvr.png" alt="MSFT Test" height = 275 width = 275 align="center" class="inline"/> <img src="images/googl_adbnusvr.png" alt="GOOGL Test"  height = 275 width = 275 align="center" class="inline"/> 
