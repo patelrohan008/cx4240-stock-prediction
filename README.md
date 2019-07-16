@@ -93,7 +93,7 @@ Final List of Meaurements:
 
 <p align="justify"> To compare between the various models examined, a composite scoring system was derived from three key metrics: R2, mean squared error, and explained variance. All three metrics were included to allow selection of a model that effectively follows the data. In the composite score, larger values are better. Certain models, for exampled ensemble learning methods implementing linear regression methods, were not included in the model selection due to the problems mentioned earlier. </p>
 
-<img src="images/composite_score.png" alt="" width="800" align="center" class="inline"/>
+<img src="images/composite_score.png" alt="" width="850" align="center" class="inline"/>
 
 The results of the composite score are shown above. 
 
