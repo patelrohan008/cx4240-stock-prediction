@@ -120,6 +120,12 @@ Currently, the model used to calculate the sentiment of tweets in thie project h
 
 The machine learning models used in this project were all relatively simple compared to those availible for use. Given more time and computing power, signifigantly more complex models could be produced that would provide either more accurate predictions or a broader range of applicable companies for which the model would be useful.
 
+### Test the models on other stock companies
+<p align="justify">We can later try the models on the stock companies. An analysis of correlation between several companies gives two examples of stocks (CVS, Boeing) that are negatively correlated to the whole stock market. Thus, more negative tweets are likely to be extracted. It would be interesting to see how the models react to this more probable percentage of negative tweets. The API Alpha vantage enables to display the performances of the main sectors of the economy and can help to choose new companies to test.</p>
+
+<img src="images/correlation_matrix_companies.png" alt="correlation matrix companies" width = "400" align="center" class="inline"/> <br>
+<img src="images/ytd-perf_sectors.png" alt="" width = "420" align="center" class="inline" /> 
+
 # References
 [1] J. Bollen and H. Mao. Twitter mood as a stock market predictor . IEEE Computer,
 44(10):91–94.
