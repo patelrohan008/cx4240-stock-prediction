@@ -1,5 +1,3 @@
-# Semtiment Analysis of Social Media For Stock Market Prediction
-
 # Motivation
 ## Behavioral Finance
 <p align="justify">Our project focuses on predicting future stock changes using the attitude of social media posts (specifically Twitter). During the 20th century, the main investment theory was the Efficient Market Hypothesis (EMH). This theory states that the market reflects all the available information and that investors act rationally. However, the financial crises and the bubbles have demonstrated that sentiments and irrationality play a significant role in financial decision making. The Nobel Prize Robert Shiller challenged the EMH in an article in 1982 by comparing the US economy performances and the stock market during the 1920s. Several other distinguished economists have proved the presence of behavioral biases in stock market fluctuations. A new theory called “The Behavioral Finance Theory” attempts to explain these irrational components.</p>
@@ -76,13 +74,11 @@ After combining the data to form a multivariate time series, more feature engine
 
 
 # Results and analysis
-## Excluding Twitter Data
-<img src="images/msft_adbnusvr_nt.png" alt="MSFT No Twitter Test" height = 275 width = 275 align="center" class="inline"/> <img src="images/googl_adbnusvr_nt.png" alt="GOOGL No Twitter Test"  height = 275 width = 275 align="center" class="inline"/> 
-<img src="images/aapl_adbnusvr_nt.png" alt="AAPL No Twitter Test" height = 275 width = 275 align="center" class="inline"/>
+<img src="images/msft_adbnusvr_nt.png" alt="MSFT No Twitter Test" height = 275 width = 275 align="center" class="inline"/> <img src="images/msft_adbnusvr.png" alt="MSFT Test" height = 275 width = 275 align="center" class="inline"/>
 
-## Incorporating Twitter Data
-<img src="images/msft_adbnusvr.png" alt="MSFT Test" height = 275 width = 275 align="center" class="inline"/> <img src="images/googl_adbnusvr.png" alt="GOOGL Test"  height = 275 width = 275 align="center" class="inline"/> 
-<img src="images/aapl_adbnusvr.png" alt="AAPL Test" height = 275 width = 275 align="center" class="inline"/>
+<img src="images/googl_adbnusvr_nt.png" alt="GOOGL No Twitter Test"  height = 275 width = 275 align="center" class="inline"/> <img src="images/googl_adbnusvr.png" alt="GOOGL Test"  height = 275 width = 275 align="center" class="inline"/> 
+
+<img src="images/aapl_adbnusvr_nt.png" alt="AAPL No Twitter Test" height = 275 width = 275 align="center" class="inline"/> <img src="images/aapl_adbnusvr.png" alt="AAPL Test" height = 275 width = 275 align="center" class="inline"/>
 
 <center><h6>The graphs above display the results of testing the AdaBoost NuSVR model with 296 days of training data and 74 days of test data.</h6><center>
   
