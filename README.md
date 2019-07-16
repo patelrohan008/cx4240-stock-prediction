@@ -74,6 +74,7 @@ After combining the data to form a multivariate time series, more feature engine
 
 
 # Results and analysis
+
 <img src="images/msft_adbnusvr_nt.png" alt="MSFT No Twitter Test" height = 275 width = 275 align="center" class="inline"/>
 <img src="images/msft_adbnusvr.png" alt="MSFT Test" height = 275 width = 275 align="center" class="inline"/>
 
@@ -94,9 +95,11 @@ Looking at the charts show below, it can be seen that the use of Twitter data in
 ## Next steps
 
 ### Twitter Analysis
+
 Currently, the model used to calculate the sentiment of tweets in thie project has only one numerical indicator applied to each tweet. This model could be improved by introducing several more complex indicators to provide more information towards the overall sentiment towards the given company.
 
 ### Neural Networks
+
 The machine learning models used in this project were all relatively simple compared to those availible for use. Given more time and computing power, signifigantly more complex models could be produced that would provide either more accurate predictions or a broader range of applicable companies for which the model would be useful.
 
 # References
