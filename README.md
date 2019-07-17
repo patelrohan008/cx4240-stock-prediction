@@ -21,6 +21,10 @@ Finally, several recent tweets had a significant impact on stock market. For ins
 
 # Approach
 
+## Goal
+
+Show that including twitter sentiment analysis scores improves model prediction of the next days closing price.
+
 ## Overview
 
 <img src="images/cx4240_flowchart.png" alt="Functional Flowchart" width="600" align="center" class="inline"/>
