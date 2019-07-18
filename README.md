@@ -75,6 +75,8 @@ Final List of Meaurements:
 
 <p align="justify">After combining the data to form a multivariate time series, more feature engineering was required. In order to assist the model in its predictions, lags were introduced as additional features. Lagging appends the features for n previous days to the current day, for example given a need to predict the stock price for day t + 1, lagging allows access to not only data from day t but also data from days t - 1, t - 2, ... up to t - n. For the models analyzed, a lag of three was introduced. </p>
 
+<img src="images/lags_diagram.png" alt="Lag Machine Learning" width="800" align="center" class="inline"/>
+
 # Methods
 
 <p align="justify">Once all necessary data had been acquired the next step was to find a predictive model. The general approach taken to this was to begin with simple linear models and increase model complexity. </p>
@@ -170,3 +172,6 @@ Dimensional Sentiment Analysis Using a Regional CNN-LSTM Model. 225-230. 10.1865
 
 [7] Ensemble learning visual retrieved from:
 https://www.datacamp.com/community/tutorials/adaboost-classifier-python
+
+[8] Lag visual retrieved from:
+https://towardsdatascience.com/time-series-machine-learning-regression-framework-9ea33929009a
