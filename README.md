@@ -89,8 +89,17 @@ Final List of Meaurements:
 ### Linear Models
 <p align="justify">A variety of linear models were used: least squares, ridge, lasso, and Bayesian ridge regression were each evaluated using linear and polynomial regression. In general the linear models tended to outperform the polynomial models, with ridge and Bayesian ridge regression performing the best. It is likely that they outperformed the rest of the linear models due to strong regularization that prevented overfitting. </p>
 
+<p align="justify">Pictured below is an example of the Bayesian Ridge regression model. The blue is the ground truth while orange is the prediction. Where the ground truth and prediction begin to diverge is end of the test and beginning of the train data.</p>
+
+<img src="images/bayesian_ridge.png" alt="Bayesian Ridge Example" width="600" align="center" class="inline"/>
+
+
 ### Kernel Transformation Models
 <p align="justify">The next set of models examined were models using kernels to transform the feature space. Using a series of different transformational kernels, kernel ridge regression and support vector regression were both analyzed. Kernel ridge regression performs the kernel trick on a dataset before implementing ridge regression and had the best results while using a linear transformation, while support vector regression which also performs the kernel trick but implements a different loss function worked best using the ‘rbf’ kernel. </p>
+
+<p align="justify">Pictured below is an example of the Support Vector regression model. The blue is the ground truth while orange is the prediction. Where the ground truth and prediction begin to diverge is end of the test and beginning of the train data.</p>
+
+<img src="images/support_vector.png" alt="SVM Example" width="600" align="center" class="inline"/>
 
 ### Ensemble Learning Models
 <p align="justify">The next set of models are designed to increase the predictive capacity of the models examined earlier. Using a variety of linear, kernel-based, and decision tree models, a series of ensemble learning methods were tested, including bagging, random forests, and AdaBoost. Bagging and AdaBoost appeared to perform extremely well with the linear and kernel transformation models. However, closer inspection revealed that linear and kernel ridge regression tended to mirror movement of the stock, but one day later. As a result, ensemble methods using these regressions had low errors but produced unusable data. In contrast, ensemble learning was effective in transforming the support vector regressor into a stronger predictive model. AdaBoost, a method which fits a sequence of learners to slightly modified data sets, functioned extremely well in conjunction with support vector regression. </p>
