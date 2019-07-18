@@ -89,7 +89,7 @@ Final List of Meaurements:
 ### Linear Models
 <p align="justify">A variety of linear models were used: least squares, ridge, lasso, and Bayesian ridge regression were each evaluated using linear and polynomial regression. In general the linear models tended to outperform the polynomial models, with ridge and Bayesian ridge regression performing the best. It is likely that they outperformed the rest of the linear models due to strong regularization that prevented overfitting. </p>
 
-<p align="justify">Pictured below is an example of the Bayesian Ridge regression model. The blue is the ground truth while orange is the prediction. The red line shows the seperation between training data (on the left) and test data (on the right).</p>
+<p align="justify">Pictured below is an example of the Bayesian Ridge regression model run on Microsoft data. The blue is the ground truth while orange is the prediction. The red line shows the seperation between training data (on the left) and test data (on the right).</p>
 
 <img src="images/bayesian_ridge.png" alt="Bayesian Ridge Example" width="600" align="center" class="inline"/>
 
@@ -97,7 +97,7 @@ Final List of Meaurements:
 ### Kernel Transformation Models
 <p align="justify">The next set of models examined were models using kernels to transform the feature space. Using a series of different transformational kernels, kernel ridge regression and support vector regression were both analyzed. Kernel ridge regression performs the kernel trick on a dataset before implementing ridge regression and had the best results while using a linear transformation, while support vector regression which also performs the kernel trick but implements a different loss function worked best using the ‘rbf’ kernel. </p>
 
-<p align="justify">Pictured below is an example of the Support Vector regression model. The blue is the ground truth while orange is the prediction. The red line shows the seperation between training data (on the left) and test data (on the right).</p>
+<p align="justify">Pictured below is an example of the Support Vector regression model run on Microsoft data. The blue is the ground truth while orange is the prediction. The red line shows the seperation between training data (on the left) and test data (on the right).</p>
 
 <img src="images/support_vector.png" alt="SVM Example" width="600" align="center" class="inline"/>
 
